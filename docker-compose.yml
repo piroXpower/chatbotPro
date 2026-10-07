@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  human_bot:
+    build: .
+    container_name: human_telegram_bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./bot.log:/app/bot.log

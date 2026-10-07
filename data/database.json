@@ -1,0 +1,38 @@
+{
+  "users": {
+    "987654321": {
+      "user_id": 987654321,
+      "first_name": "",
+      "last_name": "",
+      "username": "",
+      "language_code": "en",
+      "joined_at": "2026-10-07T17:06:12.730124+00:00",
+      "last_seen": "2026-10-07T17:06:12.730202+00:00",
+      "messages_count": 2,
+      "history": [
+        {
+          "role": "user",
+          "content": "Kaisa hai?",
+          "timestamp": "2026-10-07T17:06:12.730167+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "Badhiya bhai!",
+          "timestamp": "2026-10-07T17:06:12.730195+00:00"
+        }
+      ],
+      "memory": {}
+    }
+  },
+  "stats": {
+    "total_messages": 2,
+    "total_stickers": 0,
+    "total_users": 1,
+    "started_at": "2026-10-07T17:06:12.729156+00:00",
+    "last_sync_at": "2026-10-07T17:06:12.730264+00:00"
+  },
+  "meta": {
+    "version": "1.0",
+    "description": "Human Telegram Bot Cloud Database"
+  }
+}
